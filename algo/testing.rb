@@ -1,6 +1,5 @@
 def reverse_a_string(string)
-  string_array = []
-  string_array << string.chars
+  string_array = string.chars
   p string_array
 end
 
