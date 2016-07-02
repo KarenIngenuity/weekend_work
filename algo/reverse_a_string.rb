@@ -16,6 +16,9 @@ def reverse_a_string(string)
   reversed_string = new_array.join
 end
 
+puts reverse_a_string("Hello")
+puts reverse_a_string("grass")
+
 # Driver code - don't touch anything below this line.
 puts "TESTING reverse_a_string..."
 puts
