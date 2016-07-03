@@ -9,7 +9,7 @@ def reverse_a_string(string)
     input_array.each do |character|
       if character == input_array.last
         new_array << character
-        input_array.delete(input_array.last)
+        input_array.delete_at(-1)
       end
     end
   end
